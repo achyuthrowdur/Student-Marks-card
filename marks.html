@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel="stylesheet" href="marks.css">
+  <title>Student Marks Report</title>
+</head>
+<body>
+
+  <div id="app">
+    <h1>Student Screen</h1>
+    <button onclick="showAddForm()">Add Student</button>
+    <div id="studentsList"></div>
+    <div id="addForm" style="display: none;">
+      <h2>Add Student</h2>
+      <label for="studentName">Name:</label>
+      <input type="text" id="studentName" required>
+      <label for="studentClass">Class:</label>
+      <input type="text" id="studentClass" required>
+      <button onclick="addStudent()">Save</button>
+      <button onclick="hideAddForm()">Cancel</button>
+    </div>
+  </div>
+
+
+  <div id="app1">
+    <h1>Teacher Screen</h1>
+    <button onclick="showAddForm1()">Add Teacher</button>
+    <div id="teachersList"></div>
+    <div id="addForm1" style="display: none;">
+      <h2>Add Teacher</h2>
+      <label for="teacherName">Name:</label>
+      <input type="text" id="teacherName" required>
+      <label for="teaherClass">Class:</label>
+      <input type="text" id="teacherClass" required>
+      <button onclick="addTeacher()">Save</button>
+      <button onclick="hideAddForm1()">Cancel</button>
+    </div>
+  </div>
+
+
+  <div id="app">
+    <h1>Marks Screen</h1>
+    <button onclick="showAddForm()">Display Marks</button>
+    <div id="marksList"></div>
+    <div id="addForm" style="display: none;">
+      <h2>Display Marks</h2>
+      <label for="subname">Name:</label>
+      <input type="text" id="displaymarks" required>
+      <button onclick="displaymarks()">Save</button>
+      <button onclick="hideAddForm()">Cancel</button>
+    </div>
+  </div> 
+
+  <script src="marks.js"></script>
+</body>
+</html>

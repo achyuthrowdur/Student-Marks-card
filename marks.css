@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button {
+    color: brown;
+  margin-bottom: 10px;
+}
+
+#studentsList {
+  border: 1px solid #ccc;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#studentsList div {
+  margin-bottom: 5px;
+}
+
+#addForm {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #app1 {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  button {
+      color: brown;
+    margin-bottom: 10px;
+  }
+  
+  #teachersList {
+    border: 1px solid #ccc;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #teachersList div {
+    margin-bottom: 5px;
+  }
+  
+  #addForm1 {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
